@@ -1,112 +1,184 @@
+import { useEffect } from "react";
 import Image from "next/image";
+import bgImg from "/Users/aryamacbook/Desktop/next/portfolio/public/images/234360563223.png";
+import bgImg2 from "/Users/aryamacbook/Desktop/next/portfolio/public/images/www.png";
+import bgImg3 from "/Users/aryamacbook/Desktop/next/portfolio/public/images/hand.png";
 
 export default function Home() {
+  // useEffect(() => {
+  //   const heading = document.getElementById("h2");
+  //   heading?.addEventListener("mousemove", handleRotate);
+
+  //   return () => {
+  //     heading.removeEventListener("mousemove", handleRotate);
+  //   };
+  // });
+
+  // const handleRotate = () => {
+  //   const heading = document.getElementById("h2");
+  //   heading.style.transform = `rotate(${32}deg)`;
+  // };
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
+    <main className="flex min-h-screen flex-col items-center bg-yellow-100 text-neutral-950 font-bold m-0 p-0 ">
+      <div className="">
+        <nav className="bg-yellow-100 flex flex-row justify-items-end  m-0 pt-0 pl-3 w-[100%]  pb-10 text-[#11A068] ">
+          <div className="p-5 border border-t-0 rounded-br-3xl rounded-bl-3xl border-teal-950 mr-2 bg-[#CDF0EA]">
+            HOME
+          </div>
+          <div className="p-5 border border-t-0 rounded-br-3xl rounded-bl-3xl border-teal-950 mr-2 bg-[#FDE2E2]">
+            DESIGNS
+          </div>
+          <div className="p-5 border border-t-0 rounded-br-3xl rounded-bl-3xl border-teal-950 mr-2 bg-[#CAF7E3]">
+            ABOUT
+          </div>
+          <div className="p-5 border border-t-0 rounded-br-3xl rounded-bl-3xl border-teal-950 bg-[#F9F5E7]">
+            MY TIME
+          </div>
+        </nav>
+        <h1 className="pt-24 pl-[40%] pb-7 font-sans font-extrabold text-[#0A1D37] text-[4rem] mr-72">
+          I am <span className="text-[#FF597B] font-mono">Arya</span>
+        </h1>
+        <div id="h2" className="">
+          <h2 className="pt-0 mt-0 pl-[30%]  ml-64 font-mono font-extrabold text-[#0A1D37] text-4xl rotate-[12deg] shadow-xl ">
+            A <span className="text-[#FF597B]">Future </span>Web-Developer
+          </h2>
+        </div>
+
+        <div className="flex flex-row mt-0">
+          <div className="">
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
+              className=""
+              src={bgImg}
+              alt="My png Logo"
+              width={700}
+              height={700}
             />
-          </a>
+          </div>
+          <h2 className="w-1/2 h-56 text-[#5F8670] m-0 p-0 text-3xl self-center pt-14 font-medium">
+            I Am a Civil Engineer and Interior Designer but At Least I have
+            decided to be a web developer
+          </h2>
+        </div>
+      </div>
+      <hr className="bg-[#C3EDC0] w-[60%] h-2 border-solid border-stone-950 mb-20 self-start" />
+      <div className="flex flex-row bg-yellow-100] pb-48">
+        <div className="font-bold mb-24  text-3xl self-center pt-40  bg-yellow-100   ">
+          <ul className="list-disc text-pretty  text-[#525E75] font-thin  ">
+            <li>Certificated in 3D studio Max</li>
+            <li>Certificated in AutoCad 2D and 3D</li>
+            <li>Certificated in Revit</li>
+            <li>Certificated in V-Ray</li>
+            <li>Certificated in Ms.Proiect</li>
+            <li>Certificated in Adobe Photoshop</li>
+            <li>Certificated in Technical Welding Inspector</li>
+            <li>Certificated in excavation Inspector</li>
+            <li>Certificated in Figma</li>
+            <li>Familiar with JS,TS,CSS,TW, NextJS and React</li>
+          </ul>
+        </div>
+        <div className="">
+          <Image
+            className="pt-40 pr-0 mr-0 rounded-br-2xl rounded-tr-2xl rounded-tl-2xl pl-9"
+            src={bgImg2}
+            alt="My png Logo"
+            width={600}
+            height={600}
+          />
+        </div>
+      </div>
+      <div className="align-center text-center text-4xl text-[#11A068] font-extrabold pb-8">
+        DO YOU NOW ME?
+      </div>
+      <div className="flex flex-row ">
+        <div className="flex flex-col flex-wrap  text-center pb-36">
+          <div className="border  border-teal-950 p-6 mt-44 rounded-lg ">
+            I Love Dogs
+          </div>
+          <div className="border  border-teal-950 p-6   rounded-lg">
+            I Love Trade
+          </div>
+          <div className="border  border-teal-950 p-6  rounded-lg">
+            I am intrested in Photography
+          </div>
+          <div className="border  border-teal-950 p-6   rounded-lg">
+            I am intrested in Drawing & painting
+          </div>
+          <div className="border  border-teal-950 rounded-lg">
+            I am intrested in Computer Gaming
+          </div>
+          <div className="border  border-teal-950 p-6   rounded-lg">
+            I am intrested in Metaphysics
+          </div>
+          <div className="border  border-teal-950 p-6   rounded-lg">
+            I am intrested in History
+          </div>
+          <div className="border  border-teal-950 p-6  rounded-lg">
+            I am intrested in Politics
+          </div>
+          <div className="border  border-teal-950 p-6   rounded-lg">
+            I love Design
+          </div>
+          <div className="border  border-teal-950 p-6   rounded-lg">
+            I Love My Friends
+          </div>
+        </div>
+        <div>
+          <Image
+            className="mt-40 pr-0 mr-0 ml-56"
+            src={bgImg3}
+            alt="My png Logo"
+            width={600}
+            height={600}
+          />
+          <hr className="bg-[#C3EDC0] w-[100%] h-2 border-solid border-stone-950 " />
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <div className="mt-32 bg-[#C3EDC0] w-[100%] pt-36 pb-8">
+        <footer id="footer" className="font-normal">
+          <section className="text-center">
+            <a href="https://www.facebook.com/arya.messenger" target="_self">
+              <i className="fab fa-facebook-square"></i> Facebook
+            </a>
+            <a href="https://linkedin.com/arya-rr-5a3a7595" target="_self">
+              <i className="fab fa-linkedin"></i> linkedin
+            </a>
+            <a href="https://twitter.com" target="_self">
+              <i className="fab fa-twitter-square"></i> Twitter
+            </a>
+            <a href="https://www.instagram.com" target="_self">
+              <i className="fab fa-instagram-square icon"></i> Instagram
+            </a>
+            <a href="http://github.com/arya176" target="_self">
+              <i className="fab fa-github-square"></i> Github
+            </a>
+          </section>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+          <section className="text-center">
+            <h5>resources:</h5>
+            <div className="source">
+              Icons made by{" "}
+              <a
+                href="https://www.flaticon.com/authors/dinosoftlabs"
+                title="DinosoftLabs"
+                target="_self"
+              >
+                DinosoftLabs
+              </a>{" "}
+              from{" "}
+              <a
+                href="https://www.flaticon.com/"
+                title="Flaticon"
+                target="_self"
+              >
+                www.flaticon.com
+              </a>
+            </div>
+          </section>
+          <p className="text-center pt-10 text-sm">
+            © Copyright 2024. Designed by Arya .All rights reserved.
           </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        </footer>
       </div>
     </main>
   );
