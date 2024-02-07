@@ -39,7 +39,7 @@ export default function Home() {
           I am <span className="text-[#FF597B] font-mono">Arya</span>
         </h1>
         <div id="h2" className="">
-          <h2 className="pt-0 mt-0 pl-[30%]  ml-64 font-mono font-extrabold text-[#0A1D37] text-4xl rotate-[12deg] shadow-xl ">
+          <h2 className="pt-0 mt-0 pl-[30%]  ml-64 font-mono font-extrabold text-[#0A1D37] text-4xl rotate-[12deg] ">
             A <span className="text-[#FF597B]">Future </span>Web-Developer
           </h2>
         </div>
