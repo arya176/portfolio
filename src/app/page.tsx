@@ -30,12 +30,12 @@ export default function Home() {
             DESIGNS
           </div>
           <div className="p-5 border border-t-0 rounded-br-3xl rounded-bl-3xl border-teal-950  mr-2 bg-[#F9F5E7]">
-            MY Photography
+            MY UX/UI
           </div>
           <div className="p-5 border border-t-0 rounded-br-3xl rounded-bl-3xl border-teal-950 mr-2 bg-[#CAF7E3]">
             ABOUT
           </div>
-          <div className="p-5 border border-t-0 rounded-br-3xl rounded-bl-3xl border-teal-950 mr-2 bg-[#F9F5E7]">
+          <div className="p-5 border border-t-0 rounded-br-3xl rounded-bl-3xl border-teal-950 mr-2 bg-[#E1F0DA]">
             MY LOCAL TIME
           </div>
 
@@ -52,7 +52,7 @@ export default function Home() {
           I am <span className="text-[#FF597B] font-mono">Arya</span>
         </h1>
         <div id="h2" className="p-0 m-0  ">
-          <h2 className="pt-0 mt-0 pl-[30%]  ml-64 font-mono font-extrabold text-[#0A1D37] text-4xl flex rotate-[12deg]  ">
+          <h2 className="pt-3 mt-0 pl-[30%] ml-72 font-mono font-extrabold text-[#0A1D37] text-4xl flex rotate-[12deg] ">
             A <span className="text-[#FF597B]">Future </span>Web-Developer
           </h2>
         </div>
@@ -151,7 +151,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-40 bg-[#C3EDC0] w-[100%] pt-36 pb-8 ">
+      <div className="mt-40 bg-[#14A369] w-[100%] pt-36 pb-8 ">
         <footer id="footer" className="font-normal">
           <section className="text-center">
             <a href="https://www.facebook.com/arya.messenger" target="_self">
