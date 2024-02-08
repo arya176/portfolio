@@ -68,8 +68,12 @@ export default function Home() {
             />
           </div>
           <h2 className="w-1/2  text-[#5F8670] m-0 p-0 text-[3.5rem] self-center pt-24 font-sans ">
-            Give someone a program; you frustrate them for a day; teach them how
-            to program, and you frustrate them for a lifetime, David Leinweber.
+            <q>
+              Give someone a program; you frustrate them for a day; teach them
+              how to program, and you frustrate them for a lifetime
+            </q>
+            <br />
+            <span className="text-[2rem] pl-2"> David Leinweber.</span>
           </h2>
         </div>
       </div>
