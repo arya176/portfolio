@@ -48,11 +48,11 @@ export default function Home() {
           />
         </nav>
 
-        <h1 className="pt-16 pl-[40%] pb-7 font-sans font-extrabold text-[#0A1D37] text-[4rem] ">
+        <h1 className="pt-16 pl-[40%] pb-7 font-sans font-extrabold text-[#0A1D37] text-[4rem] text-left">
           I am <span className="text-[#FF597B] font-mono">Arya</span>
         </h1>
         <div id="h2" className="p-0 m-0  ">
-          <h2 className="pt-0 mt-0 pl-[30%]  ml-64 font-mono font-extrabold text-[#0A1D37] text-4xl flex  ">
+          <h2 className="pt-0 mt-0 pl-[30%]  ml-64 font-mono font-extrabold text-[#0A1D37] text-4xl flex rotate-[12deg]  ">
             A <span className="text-[#FF597B]">Future </span>Web-Developer
           </h2>
         </div>
