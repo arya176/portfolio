@@ -14,8 +14,10 @@ export default function AboutMe() {
       </h1>
       <div className="flex flex-row ">
         <div className="flex flex-col flex-wrap  text-center ">
-          <div className="border  border-teal-950 p-6 mt-44 rounded-lg text-teal-950 hover:shadow-lg shadow-[#F0A500] hover:bg-[#D9EDBF]">
-            I Love Dogs 🍯🍯🍯🍯🍯
+          {/* fix this part later, make an equal distamce between imojis and texts */}
+
+          <div className=" border inline-flex flex-row flex-wrap  border-teal-950 p-6 mt-44 rounded-lg text-teal-950 hover:shadow-lg shadow-[#F0A500] hover:bg-[#D9EDBF]">
+            <div>I Love Dogs</div> <div className="space-x-24">🍯🍯🍯🍯🍯</div>
           </div>
 
           <div className="border  border-teal-950 p-6   rounded-lg -teal-950 hover:shadow-lg shadow-[#F0A500] hover:bg-[#D9EDBF]">

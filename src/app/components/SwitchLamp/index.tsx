@@ -2,19 +2,17 @@
 
 import Lamp from "../Lamp";
 import Switch from "../Switch";
-import { useEffect, useState } from "react";
 
-export default function SwitchLamp() {
-  const [toggle, toggleSwitch] = useState(false);
+type Props = {
+  darkMode: boolean;
+  toggleDarkMode: () => void;
+};
 
-  const handleClick = () => {
-    toggleSwitch(!toggle);
-  };
-
+export default function SwitchLamp({ darkMode, toggleDarkMode }: Props) {
   return (
     <>
-      <Switch toggle={toggle} handleClick={handleClick} />
-      <Lamp toggle={toggle} />
+      <Switch darkMode={darkMode} handleClick={toggleDarkMode} />
+      <Lamp darkMode={darkMode} />
     </>
   );
 }
