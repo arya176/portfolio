@@ -24,6 +24,13 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  /* my css */
+  transition: background-color 0.3s ease;
+}
+/* step 2 my css code */
+.dark-mode {
+  background-color: #333;
+  color: #fff;
 }
 
 @layer utilities {
